@@ -5,7 +5,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      love you, ellie!
+      ross is poop
+      <div class="container">
+        <div style={{ paddingTop: "10px" }}>
+          
+        </div>
+        <div class="row">
+          <div style={{ padding: "10px" }} class="col-7">
+            
+          </div>
+          <div style={{ padding: "10px" }} class="col-5">
+            
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }
