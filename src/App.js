@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      ross is poop
+      <h1>ross is poop</h1>
       <div class="container">
         <div style={{ paddingTop: "10px" }}>
           
@@ -20,6 +21,7 @@ function App() {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }
