@@ -6,8 +6,8 @@ class Footer extends Component {
     state = {}
     render() {
         return (
-            <div>
-                <hr />
+            <div class="footer">
+                <hr class="hline" />
                 <div class="row">
                     <div class="col">
 

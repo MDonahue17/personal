@@ -1,0 +1,21 @@
+.card {
+    padding: 10px;
+    width: 25%;
+    display: inline-block;
+    margin-top: 15px;
+    border: 0px
+}
+
+
+.card-stories {
+    text-align: left;
+    /* background-color: white;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 0px;
+    border-bottom: 0px; */
+  }
+
+.buttonDiv {
+    margin: 5px;
+}

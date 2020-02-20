@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +28,51 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.backButton {
+  margin-bottom: 135px;
+  margin-left: 35px;
+}
+
+.minHeight {
+  min-height: calc(100vh - 65px - 56px);
+}
+
+
+/* * {
+  border: 1px solid #f00 !important;
+} */
+
+.card-body {
+  padding: 5px;
+}
+
+.card-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.card-columns {
+  max-width: 1300px;
+  display: inline-block
+}
+
+.col {
+  text-align: left;
+}
+.row {
+  width: 100%;
+}
+
+.title-author {
+  height: 110px;
+}
+
+.hline {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @keyframes App-logo-spin {

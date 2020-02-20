@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from './List';
+import '../App.css';
 
 class ToDo extends Component {
     state = { 
@@ -9,8 +10,9 @@ class ToDo extends Component {
      }
 
     render() { 
+        
         return ( 
-            <div class="container">
+            <div class="container minHeight">
                 <List items={this.state.items} />
             </div>
             
