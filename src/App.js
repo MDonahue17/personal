@@ -17,7 +17,7 @@ class App extends Component {
   componentDidMount() {
     const allPlaces = [];
     const endpoint =
-      "http://localhost:5000/stories";
+      "https://desolate-island-36268.herokuapp.com/stories";
     console.log(this.state)
     if (this.state.storyValue === null) {
       fetch(endpoint)
@@ -58,6 +58,7 @@ class App extends Component {
               </div>
             </nav>
             <Switch>
+            <Route exact path="" component={ToDo} />
               <Route exact path="/personal" component={ToDo} />
               <Route exact path="/" id='hello' component={ToDo} />
               <Route path="/stories" id='hello' component={() => <Stories value={this.state.storyValue} image={image} />} />
