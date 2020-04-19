@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37921c34461278ad1957a7fac77d8686",
+    "revision": "83d399df78a9c1bafa009bb553f945d0",
     "url": "/index.html"
   },
   {
-    "revision": "7ad71285c8cc86008e9a",
+    "revision": "afe78bcc3105f48c94f9",
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "19bf830982803e6a20d5",
-    "url": "/static/css/main.118fc763.chunk.css"
+    "revision": "b7e27805f2c9da09fab6",
+    "url": "/static/css/main.f948e342.chunk.css"
   },
   {
-    "revision": "7ad71285c8cc86008e9a",
-    "url": "/static/js/2.dd2b203d.chunk.js"
+    "revision": "afe78bcc3105f48c94f9",
+    "url": "/static/js/2.c22cec8f.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.dd2b203d.chunk.js.LICENSE"
+    "url": "/static/js/2.c22cec8f.chunk.js.LICENSE"
   },
   {
-    "revision": "19bf830982803e6a20d5",
-    "url": "/static/js/main.1c2b9440.chunk.js"
+    "revision": "b7e27805f2c9da09fab6",
+    "url": "/static/js/main.2c1c5e8b.chunk.js"
   },
   {
     "revision": "0dda34acc7b81aad8062",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c782af8d4a2346d67b3e3f6cac11e814",
     "url": "/static/media/Beach.c782af8d.jpg"
+  },
+  {
+    "revision": "fec00be892a8d81f300afd6e6527dff3",
+    "url": "/static/media/College.fec00be8.jpg"
   },
   {
     "revision": "08c766e982efe0db0dbbf3f65d4a074a",
