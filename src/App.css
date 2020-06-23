@@ -13,7 +13,30 @@
   }
 }
 
+.navbar {
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 0px;
+}
 
+.navbar-brand {
+  padding-right: 10px;
+}
+
+.navbar-nav {
+  align-items: right;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 17px;
+  margin-right: 10px;
+  color: rgba(0,0,0,.6)!important;
+}
+
+.display-4 {
+  font-weight: 350;
+  font-size: 28px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -62,12 +85,18 @@
 .col {
   text-align: left;
 }
+
+
 .row {
   width: 100%;
 }
 
 .title-author {
   height: 110px;
+}
+
+.workout-div {
+  margin-top: 50px;
 }
 
 .hline {

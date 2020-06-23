@@ -1,0 +1,13 @@
+.resume-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 55px;
+}
+
+.resume-text {
+    margin-left: 10%;
+    margin-top: 40px;
+
+}

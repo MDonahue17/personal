@@ -73,19 +73,19 @@ class Stories extends Component {
         const endpoint =
             "http://localhost:3000/stories";
 
-        if (this.props.value === null || this.props.value === undefined) {
-            fetch(endpoint)
-                .then(data => data.json())
-                .then(results => {
-                    console.log(results)
-                    this.setState({ value: results })
-                })
-                .catch(error => console.log(error));
-        } else {
+        // if (this.props.value === null || this.props.value === undefined) {
+        //     fetch(endpoint)
+        //         .then(data => data.json())
+        //         .then(results => {
+        //             console.log(results)
+        //             this.setState({ value: results })
+        //         })
+        //         .catch(error => console.log(error));
+        // } else {
             this.setState({ value: this.props.value })
             console.log(this.state.value)
             console.log("HELLO")
-        }
+        // }
     }
 }
 

@@ -14,7 +14,7 @@ class Author extends Component {
             <div style={styles}>
                 <div class="row author">
                 <div class="col" id="author">
-                    <img class="card-img-body" src={this.props.image} alt="Card image cap" />
+                    <img class="card-img-body imgBeach" src={this.props.image} alt="Card image cap" />
                 </div>
                 <div class="col">
                     <div class="details">

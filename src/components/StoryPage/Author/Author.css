@@ -42,7 +42,7 @@
   }
   
   
-  img {
+  .imgBeach {
     display:inline-block;
     object-fit: cover;
     width: 90%;

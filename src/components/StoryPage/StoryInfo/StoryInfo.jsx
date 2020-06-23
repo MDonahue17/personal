@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 
 class StoryInfo extends Component {
     render() {
+        window.scroll(0,0)
         let styles = {
             width: '25%'
         }
