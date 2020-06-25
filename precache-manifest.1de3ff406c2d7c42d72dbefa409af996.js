@@ -1,39 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d72a9141c9ad5e60ec819fe5ebeb115",
+    "revision": "c97f01f5a0262bf09cf3277d7b1f57ca",
     "url": "/index.html"
   },
   {
-    "revision": "032143ac843b6fd81f57",
-    "url": "/static/css/2.47e06e2e.chunk.css"
+    "revision": "b78304a9407ebd0f826d",
+    "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "1aa90b8a779448e1cf66",
-    "url": "/static/css/main.9b1de44a.chunk.css"
+    "revision": "597b892b961bbc6549de",
+    "url": "/static/css/main.21ad0a37.chunk.css"
   },
   {
-    "revision": "032143ac843b6fd81f57",
-    "url": "/static/js/2.144ce61a.chunk.js"
+    "revision": "b78304a9407ebd0f826d",
+    "url": "/static/js/2.7f9c6297.chunk.js"
   },
   {
-    "revision": "e4a6a4fbe69b52905966f9a3b585598f",
-    "url": "/static/js/2.144ce61a.chunk.js.LICENSE"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/static/js/2.7f9c6297.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1aa90b8a779448e1cf66",
-    "url": "/static/js/main.836a8bae.chunk.js"
+    "revision": "597b892b961bbc6549de",
+    "url": "/static/js/main.deb119cf.chunk.js"
   },
   {
-    "revision": "0dda34acc7b81aad8062",
-    "url": "/static/js/runtime-main.c399816e.js"
+    "revision": "4e298d7ae7623fec8b7e",
+    "url": "/static/js/runtime-main.b85d870a.js"
   },
   {
     "revision": "3ccee02d909918e892ad169562fd4e5d",
     "url": "/static/media/Beach.3ccee02d.jpg"
-  },
-  {
-    "revision": "fec00be892a8d81f300afd6e6527dff3",
-    "url": "/static/media/College.fec00be8.jpg"
   },
   {
     "revision": "d6021ca2a2594d5b5fcad0ef38531b0d",
@@ -72,20 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/growlers.50b941d2.jpg"
   },
   {
-    "revision": "518cc5527ab1d9e2c8308a532685f477",
-    "url": "/static/media/home.518cc552.jpg"
-  },
-  {
-    "revision": "822f58e167bacbc31ed268282c3c14ff",
-    "url": "/static/media/homeMobile.822f58e1.jpg"
-  },
-  {
     "revision": "83f8cf6d587e7ae774546d6e52a4b949",
     "url": "/static/media/jr-3.83f8cf6d.jpg"
-  },
-  {
-    "revision": "f566537a73aac1673c2d4b048b8a93a6",
-    "url": "/static/media/leaves.f566537a.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
