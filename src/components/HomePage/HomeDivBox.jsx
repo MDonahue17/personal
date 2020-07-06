@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import story from '.././stories-1.jpg';
-import music from '.././Tyler.JPG';
-import photo from '.././ross.jpg';
-import worklife from '.././worklife.jpg';
-import clothing from '.././clothing.jpg';
-import bike from '.././bike.jpg';
+import story from '../../photos/stories-1.jpg';
+import music from '../../photos/Tyler.JPG';
+import photo from '../../photos/ross.jpg';
+import worklife from '../../photos/worklife.jpg';
+import clothing from '../../photos/clothing.jpg';
+import bike from '../../photos/bike.jpg';
 import './HomePage.css';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 

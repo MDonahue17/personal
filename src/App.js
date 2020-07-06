@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Footer from './components/Footer';
-import Music from './components/Music';
-import Photography from './components/Photography';
+import { Provider } from 'react-redux';
+import store from './store/store';
+
+import Footer from './components/Footer/Footer';
+import Music from './components/Music/Music';
+import Photography from './components/PhotographyPage/Photography';
 import Stories from './components/Stories';
 import NotFound from './components/NotFound'
-import Workout from './components/Workout';
-import Resume from './components/Resume';
-import Clothing from './components/Clothing';
-import Home from './components/Home';
-import FrontPage from './components/FrontPage';
-import HomePage from './components/HomePage';
+import Workout from './components/WorkoutPage/Workout';
+import Resume from './components/ResumePage/Resume';
+import Clothing from './components/ClothingPage/Clothing';
+import HomePage from './components/HomePage/HomePage';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
-import image from './Beach.jpg'
+import image from './photos/Beach.jpg'
 
-class App extends Component {
+class App extends Component {  
 
   state = {
     frontPage: true,
@@ -51,30 +52,30 @@ class App extends Component {
   }
 
   componentDidMount() {
-    var endpoint = //"http://localhost:5000/spotifyPlaylists"
-    "https://desolate-island-36268.herokuapp.com/spotifyPlaylists";
-    if (this.state.playlistData === null) {
-    fetch(endpoint)
-      .then(data => data.json())
-      .then(results => {
-        console.log(results.body.items)
-        this.setState({ playlistData: results.body.items })
-      })
-      .catch(error => console.log(error));
-    }
+    // var endpoint = //"http://localhost:5000/spotifyPlaylists"
+    // "https://desolate-island-36268.herokuapp.com/spotifyPlaylists";
+    // if (this.state.playlistData === null) {
+    // fetch(endpoint)
+    //   .then(data => data.json())
+    //   .then(results => {
+    //     console.log(results.body.items)
+    //     this.setState({ playlistData: results.body.items })
+    //   })
+    //   .catch(error => console.log(error));
+    // }
 
-    endpoint = //"http://localhost:5000/stories"
-      "https://desolate-island-36268.herokuapp.com/stories";
-    console.log(this.state)
-    if (this.state.storyValue === null) {
-      fetch(endpoint)
-        .then(data => data.json())
-        .then(results => {
-          console.log(results)
-          this.setState({ storyValue: results })
-        })
-        .catch(error => console.log(error));
-    }
+    // endpoint = //"http://localhost:5000/stories"
+    //   "https://desolate-island-36268.herokuapp.com/stories";
+    // console.log(this.state)
+    // if (this.state.storyValue === null) {
+    //   fetch(endpoint)
+    //     .then(data => data.json())
+    //     .then(results => {
+    //       console.log(results)
+    //       this.setState({ storyValue: results })
+    //     })
+    //     .catch(error => console.log(error));
+    // }
   }
 
   enterState = (string) => {
@@ -91,6 +92,7 @@ class App extends Component {
     //   )
     // }
     return (
+      <Provider store={store}>
       <div>
         <Router>
           <div>
@@ -139,6 +141,7 @@ class App extends Component {
 
         <Footer />
       </div>
+      </Provider>
     );
   }
 

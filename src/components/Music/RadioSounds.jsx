@@ -16,6 +16,7 @@ class RadioSounds extends Component {
         return ( 
             <div class="card radiosound-card">
                 <a href={this.props.playlist.external_urls.spotify}>
+                    
                     <img class="radio-img" src={this.props.playlist.images[0].url} alt="..." />
                 </a>
                 <div class="card-body radio-card-body">
