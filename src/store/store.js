@@ -4,7 +4,8 @@ import rootReducer from './../reducer/index';
 
 const initState = {
     stories: [],
-    playlists: []
+    playlists: [],
+    photos: []
 }
 
 const middleware = [thunk]
@@ -14,7 +15,7 @@ const store = createStore(rootReducer,
     initState, 
     compose(
         applyMiddleware(...middleware), 
-        /*googleMiddleware*/
+        googleMiddleware
     )
     )
 
