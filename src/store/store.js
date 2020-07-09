@@ -9,7 +9,8 @@ const initState = {
 }
 
 const middleware = [thunk]
-const googleMiddleware = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
+let googleMiddleware = a => a;
+googleMiddleware = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() || googleMiddleware;
 
 const store = createStore(rootReducer, 
     initState, 
