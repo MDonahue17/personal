@@ -1,24 +1,29 @@
-img {
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
+.photoBox {
+    margin: 7px;
 }
 
-.page-container {
-    margin: 5%;
-    display: flex;
-    justify-content: center;
+.img {
+    max-width: auto;
+    max-height: 427px;   
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.photoDiv {
+    display:flex;
     flex-wrap: wrap;
-}
-
-.photo {
-    width: 100%;
-    max-height: auto;
-}
-
-.photo-container {
-    width: 25%;
-    margin: 5%;
+    justify-content: center;
+    margin: 7%;
     margin-top: 1%;
+    margin-bottom: 2%;
 }
 
+.rowContainer {
+    max-height: 640px;
+    margin: 10px;
+}
